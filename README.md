@@ -16,3 +16,13 @@ To run this script, you'll need the following installed:
 - nptdms
 
 You can install the required Python packages using pip:
+pip install pandas nptdms
+
+## Usage
+1. Place your .tdms files in a directory.
+2. Modify the `directory` variable in the script to point to the location of your .tdms files.
+3. Run the script with Python: python tdms_data_processor.py
+4. The script will process each .tdms file and generate corresponding CSV files in the same directory.
+
+## Customization
+- If you need to modify the script to suit specific data processing requirements, you can edit the DataFrame creation section in the script.
